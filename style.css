@@ -9,20 +9,20 @@ tailwindcss -w -i ./style.css -o ./dist/style.css
   font-family: KalamehWeb;
   font-style: normal;
   font-weight: 900;
-  src: url("../assets/fonts/KalamehWeb-Black.woff") format("woff");
+  src: url("./../assets/fonts/KalamehWeb-Black.woff") format("woff");
 }
 @font-face {
   font-family: KalamehWeb;
   font-style: normal;
   font-weight: 900;
-  src: url("../assets/fonts/KalamehWeb-Bold.woff") format("woff");
+  src: url("./../assets/fonts/KalamehWeb-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: KalamehWeb;
   font-style: normal;
   font-weight: normal;
-  src: url("../assets/fonts/KalamehWeb-Regular.woff") format("woff");
+  src: url("./../assets/fonts/KalamehWeb-Regular.woff") format("woff");
 }
 
 body {
