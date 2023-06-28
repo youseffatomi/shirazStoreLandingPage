@@ -1,3 +1,10 @@
+/*
+compile tailwind with this commant:
+
+tailwindcss -w -i ./style.css -o ./dist/style.css 
+
+*/
+
 @font-face {
   font-family: KalamehWeb;
   font-style: normal;
