@@ -1,0 +1,58 @@
+@font-face {
+  font-family: KalamehWeb;
+  font-style: normal;
+  font-weight: 900;
+  src: url("/assets/fonts/KalamehWeb-Black.woff") format("woff");
+}
+@font-face {
+  font-family: KalamehWeb;
+  font-style: normal;
+  font-weight: 900;
+  src: url("/assets/fonts/KalamehWeb-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: KalamehWeb;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/KalamehWeb-Regular.woff") format("woff");
+}
+
+body {
+  font-family: "KalamehWeb";
+  direction: rtl;
+  overflow-x: hidden;
+  width: 100vw;
+  @apply text-black;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes RotateAimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes RotateAimationReverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes ScaleAnimate {
+}
+
+.RotateAimation {
+  animation: RotateAimation infinite 10s cubic-bezier(0, 0, 0.63, 0.62);
+}
+.RotateAimationReverse {
+  animation: RotateAimationReverse infinite 10s cubic-bezier(0, 0, 0.63, 0.62);
+}
